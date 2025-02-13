@@ -2,5 +2,14 @@ S2 :
 __init__.py
 virtualenv
 
-S3 :
+
+S4 :
 Web Scraping
+
+
+S5 :
+OOP
+
+S6 :
+Identify entities in a shopping website
+Identify 5 attributes and 5 methods for each
