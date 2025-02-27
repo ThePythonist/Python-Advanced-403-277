@@ -13,3 +13,13 @@ OOP
 S6 :
 Identify entities in a shopping website
 Identify 5 attributes and 5 methods for each
+
+S7 :
+Magic methods and difference with ordinary methods in python
+
+S8 : OOP Principles (4)
+
+S9 :
+users and admins have : username,password,email
+users can leave comment
+admins can leave comment and delete comment
