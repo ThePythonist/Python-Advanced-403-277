@@ -1,22 +1,23 @@
-class MyClass:
-    def __init__(self):
-        self.a = "I am a public member"
-        self._b = "I am a protected member"
-        self.__c = "I am a private member"
-
-    def public_method(self):
-        print("This is a public method")
-
-    def _protected_method(self):
-        print("This is a protected method")
-
-    def __private_method(self):
-        print("This is a private method")
-        print(self.__private_member)
+# class MyClass:
+#     def __init__(self):
+#         self.a = "I am a public member"
+#         self._b = "I am a protected member"
+#         self.__c = "I am a private member"
+#
+#     def public_method(self):
+#         # print("This is a public method")
+#         print(self.__c)
+#
+#     def _protected_method(self):
+#         print("This is a protected method")
+#
+#     def __private_method(self):
+#         print("This is a private method")
+#         print(self.__private_member)
 
 
 # Creating an instance of the class
-obj = MyClass()
+# obj = MyClass()
 
 
 # Accessing public members and calling public methods
@@ -25,7 +26,7 @@ obj = MyClass()
 # obj.public_method()
 #
 # print("-"*50)
-#
+
 # obj.public_member = "Im not a public member"
 # print(obj.public_member)
 
@@ -45,6 +46,7 @@ obj = MyClass()
 
 # obj.__c = "yechizi"
 # print(obj.__c)
+# obj.public_method()
 
 # --------------------------------------------------------------------------------------------
 
@@ -79,23 +81,23 @@ obj = MyClass()
 
 # --------------------------------------------------------------------------------------------
 
-class Car:
-    def __init__(self):
-        self.color = "Black"  # Public member
-        self.__mileage = 0  # Private member
-
-    def _drive(self, kilometers):
-        print("Driving the car")
-        for i in range(kilometers):
-            self.__increase_mileage()
-
-        print(f"Mileage : {self.__mileage}")
-
-    def __increase_mileage(self):  # The Getter method
-        self.__mileage += 1  # Accesing private member
-
-
-my_car = Car()
-my_car._drive(35)
-my_car._drive(2)
-print(my_car.__milage)
+# class Car:
+#     def __init__(self):
+#         self.color = "Black"  # Public member
+#         self.__mileage = 0  # Private member
+#
+#     def _drive(self, kilometers):
+#         print("Driving the car")
+#         for i in range(kilometers):
+#             self.__increase_mileage()
+#
+#         print(f"Mileage : {self.__mileage}")
+#
+#     def __increase_mileage(self):  # The Getter method
+#         self.__mileage += 1  # Accesing private member
+#
+#
+# my_car = Car()
+# my_car._drive(35)
+# my_car._drive(2)
+# print(my_car.__milage)
