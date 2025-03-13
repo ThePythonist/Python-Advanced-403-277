@@ -11,8 +11,23 @@ cur = conn.cursor()
 # query = "INSERT INTO cities VALUES ('tehran','iran','farsi');"
 # cur.execute(query)
 
+# deleting a specific row in a table
+# query = "DELETE FROM customers WHERE phone='09118982351';"
+# cur.execute(query)
+# conn.commit()
+
+# deleting all rows in a table
+# query = "DELETE FROM customers;"
+# cur.execute(query)
+# conn.commit()
+
+# deleting a table
+# query = "DROP TABLE customers;"
+# cur.execute(query)
+# conn.commit()
+
 # selecting all rows from a table
-query = "SELECT * FROM cities;"
+query = "SELECT * FROM customers;"
 cur.execute(query)
 
 record = cur.fetchall()  # return a list of tuples
