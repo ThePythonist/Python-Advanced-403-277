@@ -1,0 +1,19 @@
+{
+    "url": "https://www.youtube.com/watch?v=UmljXZIypDc",
+    "title": "django tutorial part 1",
+    "date": "1397",
+    "comments": true,
+    "list_of_comments": [
+        {
+            "shahla": "awesome!"
+        },
+        {
+            "rajab": "keep it up"
+        }
+    ],
+    "suggestions": [
+        "flask tutorial",
+        "fastapi tutorial"
+    ],
+    "likes": null
+}

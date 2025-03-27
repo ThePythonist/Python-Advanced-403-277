@@ -1,0 +1,11 @@
+git init ==> create a repository
+git status ==> to see status
+git add -A ==> to stage files in the repo
+git commit -m "description" ==> to save changes
+git log ==> to see the commit history
+git checkout ID ==> to switch between commits
+
+to learn :
+git clone
+git pull
+branches

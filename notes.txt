@@ -23,3 +23,7 @@ S9 :
 users and admins have : username,password,email
 users can leave comment
 admins can leave comment and delete comment
+
+S16 :
+ORM
+How to work with sql alchemy in python
