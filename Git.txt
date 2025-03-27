@@ -4,8 +4,7 @@ git add -A ==> to stage files in the repo
 git commit -m "description" ==> to save changes
 git log ==> to see the commit history
 git checkout ID ==> to switch between commits
-
-to learn :
-git clone
-git pull
-branches
+git remote add origin "url" ==> connecting local to remote
+git push origin master ==> to push latest commits to remote
+git clone "url" ==> to download a repository
+git pull ==> to fetch latest updates of a remote repository
