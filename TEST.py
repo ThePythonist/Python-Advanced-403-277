@@ -1,23 +1,18 @@
-# import math
-# # Aliasing
-# def greetings(name):
-#     return "Hello" + " " + name
-#
-#
-# ahvalporsi = greetings
-# print(greetings("nima"))
-# print(ahvalporsi("nima"))
-#
-# jazr = math.sqrt
-# bechap = print
-# bechap(jazr(100))
-# ======================================================
-def greetings():
-    return "Hello"
+import json
 
 
-def compose(func):
-    return func()
+def read_data():
+    f = open("payments.json")
+    data = json.load(f)
+    employees = data["employees"]
+    salaries = {}
+
+    for i in employees:
+        avg = sum(i["monthly_payment"].values()) / len(i["monthly_payment"].values())
+        salaries.setdefault(i['name'], avg)
+
+    result = sorted(salaries.items(), key=lambda t: t[1])
+    print(result)
 
 
-print(compose(greetings))
+read_data()

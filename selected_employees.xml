@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <employees type="list">
+        <item type="dict">
+            <name type="str">John Doe</name>
+            <job_title type="str">Python Developer</job_title>
+            <age type="str">31</age>
+            <monthly_payment type="dict">
+                <January type="str">5000</January>
+                <February type="str">5000</February>
+                <March type="str">5000</March>
+                <April type="str">5000</April>
+                <May type="str">5000</May>
+                <June type="str">5000</June>
+                <July type="str">5000</July>
+                <August type="str">5000</August>
+                <September type="str">5000</September>
+                <October type="str">5000</October>
+                <November type="str">5000</November>
+                <December type="str">5000</December>
+            </monthly_payment>
+        </item>
+        <item type="dict">
+            <name type="str">Emily Davis</name>
+            <job_title type="str">Graphic Designer</job_title>
+            <age type="str">33</age>
+            <monthly_payment type="dict">
+                <January type="str">4000</January>
+                <February type="str">4000</February>
+                <March type="str">4000</March>
+                <April type="str">4000</April>
+                <May type="str">4000</May>
+                <June type="str">4000</June>
+                <July type="str">4000</July>
+                <August type="str">4000</August>
+                <September type="str">4000</September>
+                <October type="str">4000</October>
+                <November type="str">4000</November>
+                <December type="str">4000</December>
+            </monthly_payment>
+        </item>
+        <item type="dict">
+            <name type="str">Daniel Wilson</name>
+            <job_title type="str">Full Stack Developer</job_title>
+            <age type="str">39</age>
+            <monthly_payment type="dict">
+                <January type="str">6000</January>
+                <February type="str">6000</February>
+                <March type="str">6000</March>
+                <April type="str">6000</April>
+                <May type="str">6000</May>
+                <June type="str">6000</June>
+                <July type="str">6000</July>
+                <August type="str">6000</August>
+                <September type="str">6000</September>
+                <October type="str">6000</October>
+                <November type="str">6000</November>
+                <December type="str">6000</December>
+            </monthly_payment>
+        </item>
+    </employees>
+</root>

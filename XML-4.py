@@ -6,6 +6,7 @@ root = ET.fromstring(xml_data)
 flights = root.findall("flight")  # List
 
 for i in flights:
+    # print(i.find("destination").text)
     # origin = i.find('origin')  # String
     # print(origin)
     # print(origin.text)
