@@ -1,0 +1,7 @@
+order_id,barcode,customer_phone,customer_address
+ORD123456,890123456001,09123456789,"Tehran, Sa'adat Abad, Alley 12, No. 34"
+ORD123456,890123456002,09123456789,"Tehran, Sa'adat Abad, Alley 12, No. 34"
+ORD123457,890123456003,09123456780,"Isfahan, Chaharbagh Street, No. 56"
+ORD123458,890123456004,09123456781,"Mashhad, Imam Reza Street, No. 78"
+ORD123458,890123456005,09123456781,"Mashhad, Imam Reza Street, No. 78"
+ORD123459,890123456006,09123456782,"Shiraz, Vali Asr Street, No. 22"
