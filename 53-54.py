@@ -18,6 +18,8 @@ password = tk.StringVar()
 def login_clicked():
     """ callback when the login button clicked
     """
+    print(username.get())
+    print(password.get())
     showinfo(
         title='Information',
         message=f"Successfully logged in as {username.get()}"
